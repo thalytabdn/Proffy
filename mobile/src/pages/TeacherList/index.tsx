@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, ScrollView, Text, TextInput } from 'react-native';
+import { View, ScrollView, Text, TextInput, KeyboardAvoidingView } from 'react-native';
 import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
 
@@ -59,7 +59,10 @@ function TeacherList(){
     }
     
     return (
-        <View style={styles.container}>
+        <KeyboardAvoidingView 
+            behavior="position"
+            style={styles.container}
+        >
             <PageHeader 
                 title="Proffys dinsíponveis" 
                 headerRight={(
@@ -129,7 +132,7 @@ function TeacherList(){
                 })}
                
             </ScrollView>
-        </View>
+        </KeyboardAvoidingView>
     );
 };  
 
