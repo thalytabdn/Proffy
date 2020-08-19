@@ -81,10 +81,12 @@ Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/
   # Inicie a aplicação web
   $ cd web
   $ npm start
+
+  # Inicie a aplicação mobile
+  $ cd mobile
+  $ npm start
  ```
-
- ## 🚧 Em construção...🚧
-
+ 
   ---
   <h4 align="center">
     Build with 💓 by <a href="https://www.linkedin.com/in/thalytabdn/" target="_blank">Thalyta Barbosa</a>
